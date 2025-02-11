@@ -17,6 +17,7 @@
   "homepage": "https://github.com/stuhill/playwrightTesting#readme",
   "devDependencies": {
     "@playwright/test": "^1.50.1",
-    "@types/node": "^22.13.1"
+    "@types/node": "^22.13.1",
+    "playwright-bdd": "^8.1.0"
   }
 }
