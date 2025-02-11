@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('test', async ({ page }) => {
+test('Log into CM', async ({ page }) => {
     await page.goto('https://sso.8x8pilot.com/v2/login');
     await page.getByRole('textbox', { name: 'Username / Email' }).fill('s_hill3');
     await page.getByRole('button', { name: 'Continue' }).click();
